@@ -41,6 +41,7 @@ andy_end <- dataset.andy[30,"Weight"]
 andy_los <- andy_start - andy_end
 
 
+files <- list.files("diet_data", full.names = TRUE)
 
-
+files[1:3]
 
